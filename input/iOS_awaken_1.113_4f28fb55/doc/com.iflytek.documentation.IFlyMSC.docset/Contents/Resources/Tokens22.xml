@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/IFlyIdentityVerifierDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/IFlyIdentityVerifierDelegate</TokenIdentifier>
+			<Abstract type="html">身份验证功能类回调</Abstract>
+			<DeclaredIn>IFlyIdentityVerifierDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/IFlyIdentityVerifierDelegate/onError:</TokenIdentifier>
+			<Abstract type="html">错误回调</Abstract>
+			<DeclaredIn>IFlyIdentityVerifierDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)onError:(IFlySpeechError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">错误描述类</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onError:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/IFlyIdentityVerifierDelegate/onResults:isLast:</TokenIdentifier>
+			<Abstract type="html">结果回调</Abstract>
+			<DeclaredIn>IFlyIdentityVerifierDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)onResults:(IFlyIdentityResult *)results isLast:(BOOL)isLast</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>results</Name>
+					<Abstract type="html">-[out] 结果。</Abstract>
+				</Parameter><Parameter>
+					<Name>isLast</Name>
+					<Abstract type="html">-[out] 是否最后一条结果</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onResults:isLast:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/IFlyIdentityVerifierDelegate/onEvent:arg1:arg2:extra:</TokenIdentifier>
+			<Abstract type="html">扩展接口，用于抛出音量和vad_eos消息</Abstract>
+			<DeclaredIn>IFlyIdentityVerifierDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)onEvent:(int)eventType arg1:(int)arg1 arg2:(int)arg2 extra:(id)obj</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>eventType</Name>
+					<Abstract type="html">消息类型</Abstract>
+				</Parameter><Parameter>
+					<Name>arg1</Name>
+					<Abstract type="html">eventType为 Event_volume 时 arg1为音量值</Abstract>
+				</Parameter><Parameter>
+					<Name>arg2</Name>
+					<Abstract type="html">参数2</Abstract>
+				</Parameter><Parameter>
+					<Name>obj</Name>
+					<Abstract type="html">扩展参数</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onEvent:arg1:arg2:extra:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+	</File>
+</Tokens>

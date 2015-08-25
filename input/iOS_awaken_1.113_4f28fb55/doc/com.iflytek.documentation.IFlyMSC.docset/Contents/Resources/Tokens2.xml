@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/IFlyDataDownloader.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/IFlyDataDownloader</TokenIdentifier>
+			<Abstract type="html">此接口为数据上传接口 为个性化服务提供数据</Abstract>
+			<DeclaredIn>IFlyDataDownloader.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IFlyDataDownloader/setParameter:forKey:</TokenIdentifier>
+			<Abstract type="html">设置下载数据参数</Abstract>
+			<DeclaredIn>IFlyDataDownloader.h</DeclaredIn>			
+			
+			<Declaration>- (void)setParameter:(NSString *)parameter forKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>parameter</Name>
+					<Abstract type="html">参数值</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">参数名</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setParameter:forKey:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IFlyDataDownloader/downLoadDataWithCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">下载数据
+下载过程是异步的</Abstract>
+			<DeclaredIn>IFlyDataDownloader.h</DeclaredIn>			
+			
+			<Declaration>- (void)downLoadDataWithCompletionHandler:(IFlyDownLoadDataCompletionHandler)completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">下载完成回调</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downLoadDataWithCompletionHandler:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+	</File>
+</Tokens>

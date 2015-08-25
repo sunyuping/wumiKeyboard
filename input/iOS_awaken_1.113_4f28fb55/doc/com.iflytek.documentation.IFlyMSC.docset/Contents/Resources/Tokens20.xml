@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/IFlyVerifierUtil.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/IFlyVerifierUtil</TokenIdentifier>
+			<Abstract type="html">身份验证工具类</Abstract>
+			<DeclaredIn>IFlyVerifierUtil.h</DeclaredIn>
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyVerifierUtil/generateNumberPassword:</TokenIdentifier>
+			<Abstract type="html">返回定长的随机数字字符串（不包含数字1，而且2和5不邻接）</Abstract>
+			<DeclaredIn>IFlyVerifierUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)generateNumberPassword:(int)length</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>length</Name>
+					<Abstract type="html">随机字符串长度</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">随机字符串</Abstract></ReturnValue>
+			<Anchor>//api/name/generateNumberPassword:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlyVerifierUtil/ARGBToGray:</TokenIdentifier>
+			<Abstract type="html">ARGB彩图转灰度图，Detector和Alignment需要灰度图的输入</Abstract>
+			<DeclaredIn>IFlyVerifierUtil.h</DeclaredIn>			
+			
+			<Declaration>+ (UIImage *)ARGBToGray:(UIImage *)sourceImage</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sourceImage</Name>
+					<Abstract type="html">ARGB彩图</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">灰度图</Abstract></ReturnValue>
+			<Anchor>//api/name/ARGBToGray:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+	</File>
+</Tokens>
